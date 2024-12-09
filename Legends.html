@@ -3088,12 +3088,12 @@ vertical-align: -.125em;
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#basic-box-plot" id="toc-basic-box-plot" class="nav-link active" data-scroll-target="#basic-box-plot"><span class="header-section-number">0.1</span> Basic Box Plot</a></li>
-  <li><a href="#add-legends" id="toc-add-legends" class="nav-link" data-scroll-target="#add-legends"><span class="header-section-number">0.2</span> Add Legends</a></li>
-  <li><a href="#remove-legend" id="toc-remove-legend" class="nav-link" data-scroll-target="#remove-legend"><span class="header-section-number">1</span> Remove Legend</a></li>
-  <li><a href="#change-color-of-legend" id="toc-change-color-of-legend" class="nav-link" data-scroll-target="#change-color-of-legend"><span class="header-section-number">2</span> Change Color of Legend</a></li>
-  <li><a href="#change-position-of-legend" id="toc-change-position-of-legend" class="nav-link" data-scroll-target="#change-position-of-legend"><span class="header-section-number">3</span> Change Position of Legend</a></li>
-  <li><a href="#practice" id="toc-practice" class="nav-link" data-scroll-target="#practice"><span class="header-section-number">4</span> Practice</a></li>
+  <li><a href="#basic-box-plot" id="toc-basic-box-plot" class="nav-link active" data-scroll-target="#basic-box-plot"><span class="header-section-number">1</span> Basic Box Plot</a></li>
+  <li><a href="#add-legends" id="toc-add-legends" class="nav-link" data-scroll-target="#add-legends"><span class="header-section-number">2</span> Add Legends</a></li>
+  <li><a href="#remove-legend" id="toc-remove-legend" class="nav-link" data-scroll-target="#remove-legend"><span class="header-section-number">3</span> Remove Legend</a></li>
+  <li><a href="#change-color-of-legend" id="toc-change-color-of-legend" class="nav-link" data-scroll-target="#change-color-of-legend"><span class="header-section-number">4</span> Change Color of Legend</a></li>
+  <li><a href="#change-position-of-legend" id="toc-change-position-of-legend" class="nav-link" data-scroll-target="#change-position-of-legend"><span class="header-section-number">5</span> Change Position of Legend</a></li>
+  <li><a href="#practice" id="toc-practice" class="nav-link" data-scroll-target="#practice"><span class="header-section-number">6</span> Practice</a></li>
   </ul>
 </nav>
 </div>
@@ -3124,8 +3124,8 @@ vertical-align: -.125em;
 </header>
 
 
-<section id="basic-box-plot" class="level2" data-number="0.1">
-<h2 data-number="0.1" class="anchored" data-anchor-id="basic-box-plot"><span class="header-section-number">0.1</span> Basic Box Plot</h2>
+<section id="basic-box-plot" class="level2" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="basic-box-plot"><span class="header-section-number">1</span> Basic Box Plot</h2>
 <ul>
 <li><p><code>library(ggplot2)</code>: To load <code>ggplot</code> the function to process on R Script</p></li>
 <li><p><code>ggplot(PlantGrowth, aes(x = group, y = weight))</code> Use <code>PlantGrowth</code> dataset and set <code>group</code> on the x-axis, and <code>weight</code> on the y-axis.</p></li>
@@ -3146,8 +3146,8 @@ vertical-align: -.125em;
 </div>
 </div>
 </section>
-<section id="add-legends" class="level2" data-number="0.2">
-<h2 data-number="0.2" class="anchored" data-anchor-id="add-legends"><span class="header-section-number">0.2</span> Add Legends</h2>
+<section id="add-legends" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="add-legends"><span class="header-section-number">2</span> Add Legends</h2>
 <ul>
 <li><code>library(gridExtra)</code>: To load the <code>gridextra</code> to use the <code>grid.arrange</code> function</li>
 <li><code>fill</code>: To add colors inside the charts</li>
@@ -3181,8 +3181,8 @@ vertical-align: -.125em;
 </div>
 </div>
 </section>
-<section id="remove-legend" class="level1" data-number="1">
-<h1 data-number="1"><span class="header-section-number">1</span> Remove Legend</h1>
+<section id="remove-legend" class="level2" data-number="3">
+<h2 data-number="3" class="anchored" data-anchor-id="remove-legend"><span class="header-section-number">3</span> Remove Legend</h2>
 <ul>
 <li><code>guides(fill = FALSE)</code> function is to remove the legend</li>
 </ul>
@@ -3205,8 +3205,8 @@ of ggplot2 3.3.4.</code></pre>
 </div>
 </div>
 </section>
-<section id="change-color-of-legend" class="level1" data-number="2">
-<h1 data-number="2"><span class="header-section-number">2</span> Change Color of Legend</h1>
+<section id="change-color-of-legend" class="level2" data-number="4">
+<h2 data-number="4" class="anchored" data-anchor-id="change-color-of-legend"><span class="header-section-number">4</span> Change Color of Legend</h2>
 <ul>
 <li><code>scale_fill_brewer(palette = &quot;Pastel2&quot;)</code> function is to apply color/theme of the Legend</li>
 </ul>
@@ -3225,8 +3225,8 @@ of ggplot2 3.3.4.</code></pre>
 </div>
 </div>
 </section>
-<section id="change-position-of-legend" class="level1" data-number="3">
-<h1 data-number="3"><span class="header-section-number">3</span> Change Position of Legend</h1>
+<section id="change-position-of-legend" class="level2" data-number="5">
+<h2 data-number="5" class="anchored" data-anchor-id="change-position-of-legend"><span class="header-section-number">5</span> Change Position of Legend</h2>
 <ul>
 <li><code>legend.position = &#39;top&#39;</code> is to move the position of the legend to the top</li>
 </ul>
@@ -3246,8 +3246,8 @@ of ggplot2 3.3.4.</code></pre>
 </div>
 </div>
 </section>
-<section id="practice" class="level1" data-number="4">
-<h1 data-number="4"><span class="header-section-number">4</span> Practice</h1>
+<section id="practice" class="level2" data-number="6">
+<h2 data-number="6" class="anchored" data-anchor-id="practice"><span class="header-section-number">6</span> Practice</h2>
 <ul>
 <li><code>p2 &lt;- p1 + theme(legend.position = &#39;(position)&#39;)</code> is to Change legend position to top, bottom, left, and right</li>
 </ul>
